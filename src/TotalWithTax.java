@@ -7,8 +7,8 @@ public class TotalWithTax {
         double tax = (price * TAXRATE);
         double total = (price + tax);
         System.out.println("Price: $" + price);
-        System.out.println();
-        System.out.println();
+        System.out.println("Sales Tax: $" + tax);
+        System.out.println("Total: $" + total);
 
         //Declare the variables and the constant.
         //Make the calculations and assign
