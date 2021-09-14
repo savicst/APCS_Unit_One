@@ -15,7 +15,7 @@ public class SeparatingDigits {
         int tDmod = (sDmod % 100);
         int fourthDig = (tDmod / 10);
         int fifthDig = (tDmod % 10);
-        System.out.println(firstDig+"   "+secondDig+"   "+thirdDig+"   "+ fourthDig+"   "+fifthDig );
+        System.out.println(firstDig+" "+secondDig+" "+thirdDig+" "+ fourthDig+" "+fifthDig );
 
 
     }
