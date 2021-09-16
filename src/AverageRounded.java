@@ -9,8 +9,8 @@ public class AverageRounded {
     double average = scan.nextDouble();
     average+= scan.nextDouble();
     average+=scan.nextDouble();
-    average = (int)(average/3 +.05);
-    int averageInt = average;
-    System.out.println("Average: "+ average);
+    average /= 3;
+    int averageInt = (int) (average+ .5);
+    System.out.println("Average = "+ averageInt);
     }
 }
